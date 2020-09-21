@@ -1,0 +1,69 @@
+/* basics */
+body {background-color: #fafafa; color: #333; font-family: Georgia, 'Times New Roman', Times, serif;}
+a {color: inherit !important; text-decoration: none !important;}
+.bg-dark {background-color: #333 !important;}
+.bg-none {background-color: transparent !important;}
+
+.btn-primary {
+    background: #e03f34 !important;
+    border: none;
+    border-color: rgba(255, 0, 0, 0) !important;
+    outline: none !important;
+    width: auto !important;
+    border-radius: 5px;
+    width: 6em !important;
+    padding: 8px;
+  }
+.btn-primary:hover {background-color: #d44b42 !important;}
+.btn-primary:active,.btn-primary:focus {box-shadow: 0 0 0 .2rem rgba(212, 75, 66, 0.5) !important;}
+
+.title {
+    display: inline-block;
+    border-bottom: 2px solid red;
+    padding-bottom: 25px;
+}
+
+.news, .movies, footer, .newsletter {
+    padding: 92px 0 !important;
+}
+
+/* header section */
+header {
+    background-image: url(../imgs/bg.png);
+    background-position: top;
+    background-size: cover;
+    min-height: 35vh;
+}
+
+/* nav */
+nav {
+    background-color: rgba(0,0,0,0.1);
+    font-size: 1.3rem;
+}
+.btn-danger{
+    border-radius: 20px;
+    margin-top: 5px;
+}
+.search{
+    border-radius: 20px;
+}
+
+.nav-link {color: white !important}
+
+/* movies */
+
+.movies-hover {
+    background-color: rgba(0,0,0,0.8);
+    color: white;
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+.movies-hover:hover { opacity: 0.8; }
+
+/* newsletter section */
+.newsletter {
+    background-image: url(../imgs/background.png);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
